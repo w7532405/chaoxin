@@ -18,7 +18,7 @@
 pip install pyperclip -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install itchat -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
-### 3.使用以下代码运行程序
+### 3.使用以下代码运行程序(或下载项目中的run.py运行)
 注：如果是第一次运行，用图片中即可，如果第二次运行，将注释代码替换上一行代码就行
 ```python
 import time
@@ -39,8 +39,10 @@ while True:
         itchat.send(string,toUserName = userName)
         last_string = string
 ```
-### 4.使用
+### 4.使用结果
 运行run.py程序，会弹出一个图片二维码，用你的微信扫一下，之后就可以开始答题了~，我录了个演示视频
 你只需复制题目，你的手机微信里面就能收到答案~
+
 b站视频演示：https://www.bilibili.com/video/BV1Ma4y147df/
+
 csdn带图片说明：https://blog.csdn.net/sinat_21560581/article/details/105803513
